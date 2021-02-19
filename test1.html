@@ -7,5 +7,31 @@
 </head>
 <body>
   Hello World  
+    
+  <!-- Firebase RealData API -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.8/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.8/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCnSQVPnjfadLU7fnyjma61UJU5lp5VptU",
+    authDomain: "web1-1c89c.firebaseapp.com",
+    databaseURL: "https://web1-1c89c-default-rtdb.firebaseio.com",
+    projectId: "web1-1c89c",
+    storageBucket: "web1-1c89c.appspot.com",
+    messagingSenderId: "467297549958",
+    appId: "1:467297549958:web:52d2fad80a88c75ae6db07",
+    measurementId: "G-XZ5RKXNVGN"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 </html>
